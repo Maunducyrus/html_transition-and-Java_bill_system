@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Cyrus maundu"> 
+        <meta name="description" content="HTML revision from W3Schools">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>...APPLICATION FORM...</title>
+        <style>
+body {
+    background-color: brown;
+}
+h1{
+    background-color: aqua;
+    color: black;
+}
+h2{
+    background-color: blue;
+    color: white;
+}
+legend{
+    font-size: larger;
+    font-style: italic;
+    font: bold;
+    color: white;
+}
+p{
+    color: white;
+    font-size: large;
+}
+        </style>
+    </head>
+    <body background="C:\Users\MAUNDU CYRUS\Pictures\03dbfbb7115d44b751b05307d3d42fb5.jpg">
+        <fieldset style="border:15px solid green;">
+<h1>...APPLICATION FORM...</h1>
+<h2>...FILL OUT THIS FORM...</h2>
+<h1>COURTESY OF ENGINEER CYRUS MAUNDU</h1>
+
+<form action="/action_page.php" method="post" validate>
+    <fieldset id="strt">
+    <legend>provide you details please </legend>
+    <p>YOUR FIRSTNAME:</p>
+    <input type="text" name="firstname" value="Cyrus" placeholder="Cyrus" autocomplete="on" readonly="on" required>
+
+    <p>YOUR LASTNAME:</p>
+    <input type="text" name="lastname" placeholder="BENS" autocomplete="on" required>
+
+    <p>YOUR EMAIL:</p>
+    <input type="text" name="email" placeholder="maunducyrus@......" autocomplete="on" required>
+    <p>PASSWORD:</p>
+    <input type="password" name="password" id="password" maxlength="8" placeholder="your secret" size="" autocomplete="on" required>
+
+    <p>YOUR DATE OF BIRTH:</p>
+    <input type="month" name="bdaymonth" required><br>
+    <br>
+    <br>
+    <legend>COMMENT AREA</legend>
+    <textarea rows="20" cols="30" placeholder="comment here please... Any additional information provide here" required></textarea><br>
+    
+    </fieldset>
+    <input type="submit" formnvalidate value="Submit with validation"><br>
+    <br>
+    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">submit</button>
+</form>
+</fieldset>
+&copy;CYRUSMAUNDU;
+    </body>
+</html>
